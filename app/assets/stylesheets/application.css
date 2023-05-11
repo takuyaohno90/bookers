@@ -1,0 +1,116 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#fff;
+  color:#333;
+  font-family:verdana, arial, helvetica, sans-serif;
+  font-size:13px;
+  line-height:18px;
+  margin:33px;
+}
+p, ol, ul, td{
+  font-family:verdana, arial, helvetica, sans-serif;
+  font-size:13px;
+  line-height:18px;
+  margin:33px;
+}
+
+.submit{
+  display:block;
+  margin:10px 0;
+}
+
+/*.error input[type="text"] {*/
+  /*border: 2px solid red;*/
+/*}*/
+
+.field_with_errors input[type="text"],
+.field_with_errors textarea {
+  border:2px solid red;
+}
+
+.errors{
+  background-color: red;
+  display:inline;
+  padding:0 5px;
+}
+
+.flash{
+  color:green;
+}
+
+.index-error{
+  width:450px;
+  border:2px solid red;
+  padding:7px;
+  padding-bottom:0;
+  margin-bottom:20px;
+  background-color:#f0f0f0;
+}
+
+.index-error-message{
+  text-align:left;
+  font-weight:bold;
+  padding:5px 5px 5px 15px;
+  font-size:12px;
+  margin:-7px;
+  background-color:red;
+  color:#fff;
+}
+
+.index-error ul li{
+  font-size:12px;
+  list-style:square;
+}
+
+.index-style{
+  padding:10px 0;
+}
+
+th{
+  padding-bottom:5px;
+}
+
+td{
+  padding-bottom:7px;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.link{
+  color:#000;
+}
+
+.edit-margin{
+  margin-top:10px;
+}
+
+.edit-title{
+  margin-bottom:10px;
+}
+/*p{*/
+  /*display:block;*/
+  /*margin-block-start:1em;*/
+  /*margin-block-end:1em;*/
+  /*margin-inline-start:0px;*/
+  /*margin-inline-end:0px;*/
+/*}*/
